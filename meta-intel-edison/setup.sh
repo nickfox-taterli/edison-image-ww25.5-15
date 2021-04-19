@@ -79,6 +79,10 @@ BBLAYERS ?= " \\
   $poky_dir/meta-intel-iot-middleware \\
   $top_repo_dir/meta-intel-edison/meta-intel-arduino \\
   $top_repo_dir/meta-arduino \\
+  $top_repo_dir/meta-intel-edison/openembedded-core/meta \\
+  $top_repo_dir/meta-intel-edison/meta-openembedded/meta-oe \\
+  $top_repo_dir/meta-intel-edison/meta-openembedded/meta-python \\
+  $top_repo_dir/meta-intel-edison/meta-openembedded/meta-multimedia \\
   $extra_layers
   "
 BBLAYERS_NON_REMOVABLE ?= " \\
